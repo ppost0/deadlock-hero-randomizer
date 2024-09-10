@@ -29,7 +29,7 @@ const HeroPortrait = ({ hero, priority }) => {
   return (
     <div className={styles.heroPortrait} style={portraitStyle}>
       <img className={styles.imagePlaceholder}
-        src={`../../public/images/${name}.png`}
+        src={`/images/${name}.png`}
         alt={`${hero} Image`}
       />
       <div className={styles.heroName}>
